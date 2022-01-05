@@ -1,5 +1,5 @@
 # Robust Contrastive Learning against Noisy Views
-This repository provides a PyTorch implementation of the **Robust InfoNCE** loss proposed in paper Robust Contrastive Learning against Noisy Views.
+This repository provides a PyTorch implementation of the **Robust InfoNCE** loss proposed in paper [Robust Contrastive Learning against Noisy Views](link).
 
 Requirements:
 + PyTorch >= 1.5.0
