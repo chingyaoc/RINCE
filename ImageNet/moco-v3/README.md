@@ -3,7 +3,7 @@
 ### Introduction
 This is a PyTorch implementation of RINCE with MoCo v3. The code is exactly the same as the [facebookresearch/moco-v3](https://github.com/facebookresearch/moco-v3) except the loss function.
 
-To specify the hyperparameter, ```q``` and ```lam```, of RINCE, simply specify them with the flags. For example,
+One can use the commands from [facebookresearch/moco-v3](https://github.com/facebookresearch/moco-v3) to train MoCo v3 models with RINCE. To specify the hyperparameter (```q``` and ```lam```) of RINCE, simply set them with the flags. For example,
 ```
 python main_moco.py \
   --q=0.6, --lam=0.01 \
@@ -15,7 +15,7 @@ python main_moco.py \
 ```
 
 
-**The following README is inherited from facebookresearch/moco-v3**
+## The following README is inherited from facebookresearch/moco-v3
 
 The original MoCo v3 was implemented in Tensorflow and run in TPUs. This repo re-implements in PyTorch and GPUs. Despite the library and numerical differences, this repo reproduces the results and observations in the paper. 
 
