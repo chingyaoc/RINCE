@@ -8,7 +8,7 @@ This is a PyTorch implementation of RINCE with SimCLR. The code is modified from
 
 Launch the ImageNet training with default hyperparameters:
 ```
-python symclr_module.py
+python simclr_module.py
     --dataset imagenet
     --lam 0.01
     --q 0.1
