@@ -20,9 +20,7 @@ rince_loss = -pos**q / q + (lam * (pos + neg))**q / q
 
 ## ImagNet Experiments
 
-### SimCLR
-
-### Mocov3
+The code can be found in [ImageNet/moco-v3](https://github.com/chingyaoc/RINCE/tree/main/ImageNet/moco-v3) and [ImageNet/simclr](https://github.com/chingyaoc/RINCE/tree/main/ImageNet/simclr).
 
 ## Citation
 
