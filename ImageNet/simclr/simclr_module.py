@@ -364,8 +364,8 @@ class SimCLR(LightningModule):
         parser.add_argument("--final_lr", type=float, default=1e-6, help="final learning rate")
 
         parser.add_argument("--save_path", type=str, help="path to save checkpoints")
-        parser.add_argument("--lam", default=0.001, type=float, help="lambda for sym loss")
-        parser.add_argument("--q", default=0.5, type=float, help="q for sym loss")
+        parser.add_argument("--lam", default=0.01, type=float, help="lambda for RINCE loss")
+        parser.add_argument("--q", default=0.1, type=float, help="q for RINCE loss")
 
         return parser
 
