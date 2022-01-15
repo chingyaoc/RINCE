@@ -121,7 +121,7 @@ parser.add_argument('--crop-min', default=0.08, type=float,
                     help='minimum scale for random cropping (default: 0.08)')
 
 parser.add_argument('--lam', default=0.01, type=float, help='lam for RINCE')
-parser.add_argument('--q', default=0.1, type=float, help='q for RINCE')
+parser.add_argument('--q', default=0.6, type=float, help='q for RINCE')
 
 
 def main():
